@@ -29,7 +29,13 @@
         <item>warm:reading</item>
         <item>cool:dynamic</item>
         <item>03-sRGB:srgb</item>
+        <item>ziran:photography</item>
+        <item>rouhe:basic</item>
+        <item>movie:cinema</item>
     </string-array>
+
+     <!-- Should we filter any display modes which are unampped? -->
+    <bool name="config_filterDisplayModes">true</bool>
 
     <!-- Hardware keys present on the device, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
